@@ -21,12 +21,19 @@
 
 ---
 
-- Get all Sucos based on Posto Administrativo : https://api-tl-place.herokuapp.com/api/posto-administrativo/:idPostoAdministrativo/sucos
-- Get all Aldeias based on Posto Administrativo : https://api-tl-place.herokuapp.com/api/posto-administrativo/:idPostoAdministrativo/sucos
+- Get all Sucos based on Posto Administrativo :  <br />
+ URL : https://api-tl-place.herokuapp.com/api/posto-administrativo/{:idPostoAdministrativo}/sucos <br />
+ Example : https://api-tl-place.herokuapp.com/api/posto-administrativo/5ebff3973adeb01af00e4052/sucos <br />
+
+- Get all Aldeias based on Posto Administrativo :  <br />
+URL : https://api-tl-place.herokuapp.com/api/posto-administrativo/{:idPostoAdministrativo}/aldeias <br />
+Example : https://api-tl-place.herokuapp.com/api/posto-administrativo/5ebff3973adeb01af00e4052/aldeias <br />
 
 ---
 
-- Get all Aldeias based on Sucos : https://api-tl-place.herokuapp.com/api/sucos/:idSuco/aldeias
+- Get all Aldeias based on Sucos :  <br />
+URL : https://api-tl-place.herokuapp.com/api/sucos/{:idSuco}/aldeias <br />
+Example : https://api-tl-place.herokuapp.com/api/sucos/5eca502abd551121e8467e1f/aldeias <br />
 
 ## Demo : 
  https://demo-get-data-from-api.herokuapp.com
