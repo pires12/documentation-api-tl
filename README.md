@@ -10,7 +10,7 @@
 ---
 
 - Get all Posto Administrativo based on Municipio : <br />
-    URL :  <https://api-tl-place.herokuapp.com/api/municipio/<:idMunicipio>/posto-administrativo> <br />
+    URL :  <https://api-tl-place.herokuapp.com/api/municipio/{:idMunicipio}/posto-administrativo> <br />
     Example : https://api-tl-place.herokuapp.com/api/municipio/5eb6b6036f43c107bc95bdf0/posto-administrativo  <br />
 - Get all Sucos based on Municipio :  <br />
     URL : https://api-tl-place.herokuapp.com/api/municipio/{:idMunicipio}/sucos <br />
